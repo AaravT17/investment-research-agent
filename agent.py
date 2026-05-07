@@ -22,7 +22,7 @@ agent = Agent(
     output_type=InvestmentBrief,
     model_settings=ModelSettings(
         max_tokens=8000,
-        temperature=0.2,
+        temperature=0.0,
         # for financial analysis, we want consistency and reliability, so a lower temperature is appropriate
     ),
     system_prompt=system_prompt,
