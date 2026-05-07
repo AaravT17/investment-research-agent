@@ -21,7 +21,7 @@ Output can be printed directly to the terminal as formatted markdown, or saved t
 
 - Python 3.10+
 - A [Tavily API key](https://app.tavily.com/)
-- An API key for your chosen LLM provider (default: Anthropic)
+- An API key for the LLM provider of your choice (Anthropic used here)
 
 > **Note:** The agent is built on pydantic-ai, so any [supported model provider](https://ai.pydantic.dev/models/) (OpenAI, Gemini, Groq, Mistral, and more) works — not just Anthropic. To switch, update the model and API key in `agent.py` and `.env`.
 
