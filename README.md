@@ -1,6 +1,6 @@
 # Investment Research Agent
 
-A CLI tool that generates structured investment briefs for any company — public or private — using an AI agent backed by Claude, real-time web search, and live market data.
+A CLI tool that generates structured investment briefs for any company — public or private — using an AI agent backed by Claude Sonnet, real-time web search, and live market data.
 
 ## Overview
 
@@ -20,8 +20,10 @@ Output can be printed directly to the terminal as formatted markdown, or saved t
 ## Prerequisites
 
 - Python 3.10+
-- An [Anthropic API key](https://console.anthropic.com/)
 - A [Tavily API key](https://app.tavily.com/)
+- An API key for your chosen LLM provider (default: Anthropic)
+
+> **Note:** The agent is built on pydantic-ai, so any [supported model provider](https://ai.pydantic.dev/models/) (OpenAI, Gemini, Groq, Mistral, and more) works — not just Anthropic. To switch, update the model and API key in `agent.py` and `.env`.
 
 ## Installation
 
