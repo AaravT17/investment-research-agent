@@ -34,7 +34,7 @@ cd investment-research-agent
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-pip install "pydantic-ai[anthropic]" yfinance tavily-python rich python-dotenv
+pip install -r requirements.txt
 ```
 
 ## Configuration
